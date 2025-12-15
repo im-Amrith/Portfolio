@@ -54,7 +54,6 @@ const RotatingCarousel = () => {
   const isMobile = useIsMobile();
 
   // --- Configuration ---
-  // Adjust dimensions based on screen size
   const CARD_WIDTH = isMobile ? 240 : 320; 
   const GAP = isMobile ? 20 : 40;
   const ITEM_COUNT = 8;
@@ -131,24 +130,25 @@ const RotatingCarousel = () => {
   ];
 
   return (
-    <section className="bg-black min-h-screen flex flex-col items-center justify-center overflow-hidden relative touch-none">
+    // CHANGE HERE: Removed 'touch-none'
+    <section className="bg-black min-h-screen flex flex-col items-center justify-center overflow-hidden relative">
       
       <BackgroundMarquee />
 
-      {/* Container with Tilt - Adjusted perspective for mobile */}
+      {/* Container with Tilt */}
       <div 
-        className="relative z-10 scale-75 md:scale-100 origin-center" // General scale down on mobile to ensure fit
+        className="relative z-10 scale-75 md:scale-100 origin-center"
         style={{ 
-          perspective: isMobile ? "1000px" : "2000px", // Closer perspective on mobile
+          perspective: isMobile ? "1000px" : "2000px",
           transformStyle: "preserve-3d",
-          transform: isMobile ? "rotateX(-5deg)" : "rotateX(-12deg) rotateZ(-5deg)", // Less extreme tilt on mobile
+          transform: isMobile ? "rotateX(-5deg)" : "rotateX(-12deg) rotateZ(-5deg)",
         }}
       >
         <motion.div
           className="relative"
           style={{ 
             width: CARD_WIDTH, 
-            height: isMobile ? 320 : 400, // Shorter cards on mobile
+            height: isMobile ? 320 : 400,
             transformStyle: "preserve-3d",
           }}
           animate={{ rotateY: rotationKeyframes }}
@@ -182,7 +182,6 @@ const RotatingCarousel = () => {
                     <div className="absolute inset-0 bg-gradient-to-b from-black/20 via-black/40 to-black/90" />
                   </div>
                   <div className="relative z-10 flex justify-between items-start">
-                     {/* Number tag can go here if needed */}
                      <span className="text-white/50 font-mono text-xs border border-white/20 px-2 py-1 rounded-full">
                         {item.num}
                      </span>
