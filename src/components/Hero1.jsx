@@ -153,7 +153,7 @@ const Hero = () => {
             transition={{ duration: 0.5, delay: 2.5 }}
             className="flex gap-4 pt-6"
           >
-             <a href="/projects" className="px-8 py-3 bg-white text-neutral-950 font-bold text-xs tracking-[0.15em] uppercase hover:bg-neutral-200 transition-colors">
+             <a href="#projects" className="px-8 py-3 bg-white text-neutral-950 font-bold text-xs tracking-[0.15em] uppercase hover:bg-neutral-200 transition-colors">
                View Projects
              </a>
              <a href="#contact" className="px-8 py-3 bg-transparent border border-white/20 text-white font-bold text-xs tracking-[0.15em] uppercase hover:bg-white/10 transition-colors">
