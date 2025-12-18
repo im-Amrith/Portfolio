@@ -84,6 +84,15 @@ const allProjects = [
     description: "Lane Detection Using Fully Convolutional Neural Networks.automated lane detection in road scenes using a fully convolutional neural network (FCN).",
     img: "/lane.png",
     link: "https://github.com/im-Amrith/Lane-detection"
+  },
+  {
+    id: 10,
+    title: "LIFE RPG OS",
+    category: "Web Dev",
+    tech: ["Firebase", "React", "TypeScript"],
+    description: "A gamified productivity OS for students built with React & Firebase. Turn tasks into quests, earn XP, buy real-life rewards in the Shop, and track your academic progress in an RPG-style interface.",
+    img: "/life-rpg.jpg",
+    link: "https://life-rpg-alpha.vercel.app"
   }
 ];
 
