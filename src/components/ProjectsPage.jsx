@@ -119,7 +119,7 @@ const allProjects = [
     tech: ["JavaScript","Python","GROQ"],
     description: "Vantage is not just a mock interview tool, it is a full-lifecycle career acceleration platform. Designed with a 'Mission Control' aesthetic, it leverages Computer Vision, RAG, and Real-time Audio processing to help engineers master every stage of the job hunt—from resume optimization to salary negotiation.",
     img: "/vantage.png",
-    link: "https://github.com/im-Amrith/Vantage"
+    link: "https://vantage0.vercel.app"
   }
 ];
 
