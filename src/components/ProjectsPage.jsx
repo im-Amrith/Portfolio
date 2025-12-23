@@ -93,10 +93,38 @@ const allProjects = [
     description: "A gamified productivity OS for students built with React & Firebase. Turn tasks into quests, earn XP, buy real-life rewards in the Shop, and track your academic progress in an RPG-style interface.",
     img: "/life-rpg.jpg",
     link: "https://life-rpg-alpha.vercel.app"
+  },
+  {
+    id: 11,
+    title: "GITSOULS",
+    category: "Productivity",
+    tech: ["Electron", "JavaScript","Powershell"],
+    description: "GitSouls is a PowerShell integration that turns every git push into a Dark Souls / Elden Ring victory event. When your push is successful, a native overlay appears on your screen with the iconic 'Victory' sound and aesthetic.",
+    img: "/gitsouls.png",
+    link: "https://github.com/im-Amrith/git-souls"
+  },
+  {
+    id: 12,
+    title: "ESOULS",
+    category: "Browser Extension",
+    tech: ["JavaScript"],
+    description: "This is a Chrome Extension that brings the satisfaction of a Dark Souls victory to your inbox. Whenever you send an email on Gmail, it displays a 'EMAIL SENT' victory screen overlay accompanied by a sound effect.",
+    img: "/esouls.png",
+    link: "https://github.com/im-Amrith/souls-email"
+  },,
+  {
+    id: 13,
+    title: "VANTAGE",
+    category: "Web Dev",
+    tech: ["JavaScript","Python","GROQ"],
+    description: "Vantage is not just a mock interview tool, it is a full-lifecycle career acceleration platform. Designed with a 'Mission Control' aesthetic, it leverages Computer Vision, RAG, and Real-time Audio processing to help engineers master every stage of the job hunt—from resume optimization to salary negotiation.",
+    img: "/vantage.png",
+    link: "https://github.com/im-Amrith/Vantage"
   }
 ];
 
-const categories = ["All", "AI/ML", "Web Dev", "Security", "Productivity"];
+
+const categories = ["All", "AI/ML", "Web Dev", "Security", "Productivity","Browser Extension"];
 
 const ProjectsPage = () => {
   const [activeCategory, setActiveCategory] = useState("All");
