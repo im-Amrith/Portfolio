@@ -111,7 +111,7 @@ const allProjects = [
     description: "This is a Chrome Extension that brings the satisfaction of a Dark Souls victory to your inbox. Whenever you send an email on Gmail, it displays a 'EMAIL SENT' victory screen overlay accompanied by a sound effect.",
     img: "/esouls.png",
     link: "https://github.com/im-Amrith/souls-email"
-  },,
+  },
   {
     id: 13,
     title: "VANTAGE",
@@ -120,7 +120,53 @@ const allProjects = [
     description: "Vantage is not just a mock interview tool, it is a full-lifecycle career acceleration platform. Designed with a 'Mission Control' aesthetic, it leverages Computer Vision, RAG, and Real-time Audio processing to help engineers master every stage of the job hunt—from resume optimization to salary negotiation.",
     img: "/vantage.png",
     link: "https://vantage0.vercel.app"
-  }
+  },
+  {
+    id: 14,
+    title: "TALRANK",
+    category: "Web Dev",
+    tech: ["TypeScript","React","ShadCN"],
+    description: "Talhunt is a talent matching application built with modern web technologies.' aesthetic, it leverages Computer Vision, RAG, and Real-time Audio processing to help engineers master every stage of the job hunt—from resume optimization to salary negotiation.",
+    img: "/talrank.png",
+    link: "https://talhunt.vercel.app"
+  },
+  {
+    id: 15,
+    title: "FFLOWBIT",
+    category: "Web Dev",
+    tech: ["Nodejs","React","TypeScript"],
+    description: "Intelligent Invoice Processing Agent designed to 'learn' from human corrections useing a Long-Term Memory layer",
+    img: "/flowbit.png",
+    link: "https://flowbit-nu.vercel.app"
+  },
+  {
+    id: 16,
+    title: "CONNECTVIT",
+    category: "Social Messaging",
+    tech: ["Nodejs","React","Websocket"],
+    description: "Modern social media platform featuring real-time chat, groups, stories, and a dynamic social feed. Built with React.js and Flask",
+    img: "vit.png",
+    link: "https://connectvit.vercel.app"
+  },
+  {
+    id: 16,
+    title: "NEURODRIVE",
+    category: "Simulation",
+    tech: ["Python","Streamlit","Unity"],
+    description: "We developed a custom physics script (NeuroDriveECU.cs) attached to a 3D vehicle. It does not just play an animation; it calculates real forces.",
+    img: "neuro.png",
+    link: "https://github.com/im-Amrith/Neurodrive"
+  },
+  {
+    id: 17,
+    title: "SERENE",
+    category: "Web Dev",
+    tech: ["React","Azure","Groq"],
+    description: "Serene AI is a comprehensive, AI-powered health management platform designed to empower users to take control of their well-being. It combines advanced computer vision, acoustic analysis, and generative AI to provide real-time health insights, medication management, and symptom analysis.",
+    img: "serene.png",
+    link: "https://serene-med.vercel.app/"
+  },
+  
 ];
 
 

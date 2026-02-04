@@ -35,11 +35,11 @@ const projects = [
   },
   {
     id: 3,
-    title: "ConnectVit",
-    category: "Social Messaging",
-    description: "Modern social media platform featuring real-time chat, groups, stories, and a dynamic social feed. Built with React.js and Flask",
-    img: "vit.png",
-    link: "https://connectvit.vercel.app"
+    title: "Crisp",
+    category: "Web Application",
+    description: "A comprehensive agricultural technology platform that transforms traditional farming into a smart, digital-first experience. This system serves as a real-time digital twin of farms, empowering farmers, agronomists, and developers with AI-driven insights, predictive analytics, and intelligent monitoring capabilities",
+    img: "/crisp.png",
+    link: "https://huggingface.co/spaces/im-amrith/crisp"
   },
   {
     id: 4,
