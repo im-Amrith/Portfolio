@@ -117,9 +117,7 @@ const Hero = () => {
              {/* UPDATED TYPOGRAPHY HERE */}
              {/* Uses 'font-sans' (Inter) instead of default, better leading, slightly lighter text color for elegance */}
              <p className="text-neutral-300 text-lg md:text-xl font-sans font-light leading-8 tracking-wide">
-              Innovative software developer specializing in <strong className="text-white font-semibold">Machine Learning</strong>, <strong className="text-white font-semibold">Deep Learning</strong>, and <strong className="text-white font-semibold">NLP</strong>. 
-              Adept at designing efficient and scalable solutions, with a strong focus on data analysis and code optimization. 
-              Eager to leverage technical skills to build impactful, cutting-edge applications.
+              Full Stack Engineer and AI Architect specializing in autonomous AI agents, RAG architectures, and premium UI/UX. I bridge the gap between advanced machine learning models and scalable web infrastructure using Python, React, and AWS. Passionate about model optimization for Edge AI and engineering high-performance, intelligent digital experiences.
             </p>
           </motion.div>
 

@@ -43,11 +43,11 @@ const projects = [
   },
   {
     id: 4,
-    title: "TeamSync AI",
-    category: "Browser Extension",
-    description: "Automated event extraction from Microsoft Teams chats using Gemini API integration.",
-    img: "team2.jpg",
-    link: "https://github.com/im-Amrith/Teamsync"
+    title: "CIG OPS",
+    category: "Medical Assistant",
+    description: "AI-powered nicotine recovery assistant with voice chat, personalized quit plans, and gamified support. Built with FastAPI, React, Groq AI, and ElevenLabs TTS",
+    img: "cig2.png",
+    link: "https://cig-ops2-0.vercel.app"
   },
 ];
 

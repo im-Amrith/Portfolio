@@ -3,6 +3,24 @@ import { motion } from "framer-motion";
 
 const experiences = [
   {
+    role: "Software Engineering Intern", 
+    company: "Cochin Port Authority",
+    period: "May 2026 – June 2026",
+    description: [
+      "Engineered a secure enterprise DocGen pipeline using FastAPI, safely automating the assembly of 80+ page legal tenders",
+      " Implemented a localized RAG architecture for private Markdown extraction, ensuring source-grounded context while maintaining strict data confidentiality."
+    ]
+  },
+  {
+    role: "Full-Stack & AI Developer",
+    company: "Pivot",
+    period: "May 2026",
+    description: [
+      "Engineered autonomous AI agents and integrated premium UI/UX designs to streamline complex enterprise workflows.",
+      "Automated large-scale document extraction for the Encon project, successfully parsing over 80 distinct fields across 2,300 historical files within a single month."
+    ]
+  },
+  {
     role: "AI + ML Developer",
     company: "CrispRoot AI Platform | IIT ROPAR",
     period: "May 2025 – July 2025",
@@ -19,7 +37,8 @@ const experiences = [
       "Pioneered a hybrid AI system for real-time edge traffic control, achieving >50% reduction in vehicle waiting time.",
       "Optimized model architecture to reduce memory footprint by approximately 45% for resource-constrained devices."
     ]
-  }
+  },
+  
 ];
 
 const education = [
@@ -39,7 +58,7 @@ const education = [
     degree: "CBSE 10th",
     school: "Bhavan’s Vidya Mandir, Girinagar",
     period: "2021",
-    score: "98.14%"
+    score: "98.41%"
   }
 ];
 
