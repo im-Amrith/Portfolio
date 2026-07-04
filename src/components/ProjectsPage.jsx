@@ -98,7 +98,7 @@ const allProjects = [
     id: 11,
     title: "GITSOULS",
     category: "Productivity",
-    tech: ["Electron", "JavaScript","Powershell"],
+    tech: ["Electron", "JavaScript", "Powershell"],
     description: "GitSouls is a PowerShell integration that turns every git push into a Dark Souls / Elden Ring victory event. When your push is successful, a native overlay appears on your screen with the iconic 'Victory' sound and aesthetic.",
     img: "/gitsouls.png",
     link: "https://github.com/im-Amrith/git-souls"
@@ -116,7 +116,7 @@ const allProjects = [
     id: 13,
     title: "VANTAGE",
     category: "Web Dev",
-    tech: ["JavaScript","Python","GROQ"],
+    tech: ["JavaScript", "Python", "GROQ"],
     description: "Vantage is not just a mock interview tool, it is a full-lifecycle career acceleration platform. Designed with a 'Mission Control' aesthetic, it leverages Computer Vision, RAG, and Real-time Audio processing to help engineers master every stage of the job hunt—from resume optimization to salary negotiation.",
     img: "/vantage.png",
     link: "https://vantage0.vercel.app"
@@ -125,7 +125,7 @@ const allProjects = [
     id: 14,
     title: "TALRANK",
     category: "Web Dev",
-    tech: ["TypeScript","React","ShadCN"],
+    tech: ["TypeScript", "React", "ShadCN"],
     description: "Talhunt is a talent matching application built with modern web technologies.' aesthetic, it leverages Computer Vision, RAG, and Real-time Audio processing to help engineers master every stage of the job hunt—from resume optimization to salary negotiation.",
     img: "/talrank.png",
     link: "https://talhunt.vercel.app"
@@ -134,7 +134,7 @@ const allProjects = [
     id: 15,
     title: "FFLOWBIT",
     category: "Web Dev",
-    tech: ["Nodejs","React","TypeScript"],
+    tech: ["Nodejs", "React", "TypeScript"],
     description: "Intelligent Invoice Processing Agent designed to 'learn' from human corrections useing a Long-Term Memory layer",
     img: "/flowbit.png",
     link: "https://flowbit-nu.vercel.app"
@@ -143,16 +143,16 @@ const allProjects = [
     id: 16,
     title: "CONNECTVIT",
     category: "Social Messaging",
-    tech: ["Nodejs","React","Websocket"],
+    tech: ["Nodejs", "React", "Websocket"],
     description: "Modern social media platform featuring real-time chat, groups, stories, and a dynamic social feed. Built with React.js and Flask",
     img: "vit.png",
     link: "https://connectvit.vercel.app"
   },
   {
-    id: 16,
+    id: 28,
     title: "NEURODRIVE",
     category: "Simulation",
-    tech: ["Python","Streamlit","Unity"],
+    tech: ["Python", "Streamlit", "Unity"],
     description: "We developed a custom physics script (NeuroDriveECU.cs) attached to a 3D vehicle. It does not just play an animation; it calculates real forces.",
     img: "neuro.png",
     link: "https://github.com/im-Amrith/Neurodrive"
@@ -160,45 +160,136 @@ const allProjects = [
   {
     id: 17,
     title: "SERENE",
-    category: "Web Dev",
-    tech: ["React","Azure","Groq"],
+    category: "AI Health",
+    tech: ["React", "Azure", "Groq"],
     description: "Serene AI is a comprehensive, AI-powered health management platform designed to empower users to take control of their well-being. It combines advanced computer vision, acoustic analysis, and generative AI to provide real-time health insights, medication management, and symptom analysis.",
     img: "serene.png",
     link: "https://serene-med.vercel.app/"
   },
-  
+  {
+    id: 18,
+    title: "Nerve",
+    category: "Finance",
+    tech: ["React", "LangGraph", "Groq"],
+    description: "An intelligence-first brokerage layer that governs trading through autonomous AI agents.",
+    img: "nerve.png",
+    link: "https://serene-med.vercel.app/"
+  },
+  {
+    id: 19,
+    title: "PhishShield",
+    category: "Browser Extension",
+    tech: ["Python", "XGBoost", "BeautifulSoup4"],
+    description: "A real-time phishing detection browser extension powered by machine learning. PhishShield analyzes URLs and website characteristics to protect users from phishing attacks.",
+    img: "phish.png",
+    link: "https://github.com/im-Amrith/PhishShield_Extension"
+  },
+  {
+    id: 20,
+    title: "TeamSync AI",
+    category: "Browser Extension",
+    tech: ["Gemini", "JavaScript"],
+    description: "Automated event extraction from Microsoft Teams chats using Gemini API integration.",
+    img: "team2.jpg",
+    link: "https://github.com/im-Amrith/Teamsync"
+  },
+  {
+    id: 21,
+    title: "Xartup",
+    category: "Finance",
+    tech: ["Next.js 14", "Jina Ai", "Gemini"],
+    description: "A thesis-first VC sourcing and enrichment platform. Built with Next.js 14, TypeScript, and Tailwind CSS.",
+    img: "xartup.png",
+    link: "https://xartup-beta.vercel.app/"
+  },
+  {
+    id: 22,
+    title: "Empath",
+    category: "AI Health",
+    tech: ["Next.js 16", "Gemini", "Zustand"],
+    description: "Empath AI monitors student engagement in real-time and dynamically adjusts content difficulty, pacing, and presentation to create a truly personalised learning experience.",
+    img: "empath.png",
+    link: "https://empath0.vercel.app"
+  },
+  {
+    id: 23,
+    title: "Digital-Junkyard",
+    category: "Web Dev",
+    tech: ["React", "TypeScript", "Google-Maps"],
+    description: "An interactive e-waste management platform built to help monitor, recycle, and rescue discarded electronic components safely and efficiently.",
+    img: "digital_junkyard.png",
+    link: "https://digital-junkyard.vercel.app"
+  },
+  {
+    id: 24,
+    title: "Binance Futures Trading-Agent",
+    category: "Finance",
+    tech: ["Python", "Binance API", "Rich"],
+    description: "A command-line trading bot for Binance USD-M Futures Testnet, with support for market, limit, and stop-market orders, plus an interactive Rich prompt wizard.",
+    img: ".png",
+    link: "https://github.com/im-Amrith/Binance-trading-bot"
+  },
+  {
+    id: 25,
+    title: "AuraFlow",
+    category: "AI?ML",
+    tech: ["Python", "LangGraph", "Groq"],
+    description: "",
+    img: "auraflow.png",
+    link: "https://aura-flow-neon.vercel.app/"
+  },
+  {
+    id: 26,
+    title: "ParkGuard",
+    category: "AI/ML",
+    tech: ["React", "MymapIndia", "Facebook prophet"],
+    description: "AI-driven traffic and illegal parking enforcement system. By moving away from reactive, patrol-based enforcement, the system utilizes a Congestion Intelligence Score (CIS) to quantify the cascading impact of illegal parking on urban traffic flow. It combines historical time-series forecasting with a real-time 3D digital twin to autonomously route tactical response units to critical bottlenecks before gridlock materializes.",
+    img: "parkguard.png",
+    link: "https://park-guard-ten.vercel.app"
+  },
+  {
+    id: 27,
+    title: "EcoGraph",
+    category: "AI/ML",
+    tech: ["Python", "LangChain", "TigerGraph"],
+    description: "EcoGraph AI is a zero-hallucination, high-performance regulatory compliance tracking engine designed for complex hardware manufacturing supply chains.",
+    img: "ecograph.png",
+    link: "https://eco-graph.vercel.app/"
+  },
+
+
 ];
 
 
-const categories = ["All", "AI/ML", "Web Dev", "Security", "Productivity","Browser Extension"];
+const categories = ["All", "AI/ML", "Web Dev", "Security", "Finance", "AI Health", "Productivity", "Browser Extension"];
 
 const ProjectsPage = () => {
   const [activeCategory, setActiveCategory] = useState("All");
 
   // Filter logic
-  const filteredProjects = activeCategory === "All" 
-    ? allProjects 
+  const filteredProjects = activeCategory === "All"
+    ? allProjects
     : allProjects.filter(p => p.category === activeCategory);
 
   return (
     <div className="min-h-screen bg-neutral-950 pt-12 pb-20 px-6">
-      
+
       {/* --- Header Section --- */}
       <div className="max-w-7xl mx-auto mb-10">
-            <Link to="/#projects" className="inline-flex items-center gap-2 text-neutral-400 hover:text-white transition-colors uppercase font-mono text-xs tracking-widest">
-            <svg className="w-4 h-4 rotate-180" fill="none" viewBox="0 0 24 24" stroke="currentColor">
-                <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M17 8l4 4m0 0l-4 4m4-4H3" />
-            </svg>
-            Back to Home
-            </Link>
-        </div>
+        <Link to="/#projects" className="inline-flex items-center gap-2 text-neutral-400 hover:text-white transition-colors uppercase font-mono text-xs tracking-widest">
+          <svg className="w-4 h-4 rotate-180" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+            <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M17 8l4 4m0 0l-4 4m4-4H3" />
+          </svg>
+          Back to Home
+        </Link>
+      </div>
       <div className="max-w-7xl mx-auto mb-20">
-        <motion.h1 
+        <motion.h1
           initial={{ opacity: 0, y: 20 }}
           animate={{ opacity: 1, y: 0 }}
           className="text-6xl md:text-9xl font-black text-white uppercase tracking-tighter mb-8"
         >
-          Project <br/>
+          Project <br />
           <span className="text-neutral-800">Archive</span>
         </motion.h1>
 
@@ -208,15 +299,14 @@ const ProjectsPage = () => {
             <button
               key={cat}
               onClick={() => setActiveCategory(cat)}
-              className={`text-sm font-mono uppercase tracking-widest transition-colors duration-300 relative group ${
-                activeCategory === cat ? "text-emerald-400" : "text-neutral-500 hover:text-white"
-              }`}
+              className={`text-sm font-mono uppercase tracking-widest transition-colors duration-300 relative group ${activeCategory === cat ? "text-emerald-400" : "text-neutral-500 hover:text-white"
+                }`}
             >
               <span className="relative z-10">{cat}</span>
               {activeCategory === cat && (
-                <motion.div 
+                <motion.div
                   layoutId="activeTab"
-                  className="absolute -bottom-9 left-0 right-0 h-0.5 bg-emerald-400" 
+                  className="absolute -bottom-9 left-0 right-0 h-0.5 bg-emerald-400"
                 />
               )}
             </button>
@@ -225,8 +315,8 @@ const ProjectsPage = () => {
       </div>
 
       {/* --- Projects Grid --- */}
-      <motion.div 
-        layout 
+      <motion.div
+        layout
         className="max-w-7xl mx-auto grid grid-cols-1 md:grid-cols-2 gap-8 md:gap-12"
       >
         <AnimatePresence>
@@ -242,17 +332,17 @@ const ProjectsPage = () => {
             >
               {/* 1. Image Area */}
               <div className="relative h-[300px] md:h-[400px] overflow-hidden">
-                <div 
+                <div
                   className="absolute inset-0 bg-cover bg-center transition-transform duration-700 group-hover:scale-105 grayscale group-hover:grayscale-0"
                   style={{ backgroundImage: `url(${project.img})` }}
                 />
                 <div className="absolute inset-0 bg-neutral-950/20 group-hover:bg-neutral-950/0 transition-colors duration-500" />
-                
+
                 {/* Tech Tags Overlay */}
                 <div className="absolute top-4 right-4 flex flex-col gap-2 items-end">
-                  {project.tech.map((t, i) => (
-                    <span 
-                      key={i} 
+                  {project.tech?.map((t, i) => (
+                    <span
+                      key={i}
                       className="bg-black/80 backdrop-blur text-white/70 text-[10px] font-mono uppercase px-2 py-1 border border-white/10"
                     >
                       {t}
@@ -272,11 +362,11 @@ const ProjectsPage = () => {
                       // {project.category}
                     </span>
                   </div>
-                  
+
                   {/* --- CLICKABLE ARROW BUTTON --- */}
-                  <a 
-                    href={project.link} 
-                    target="_blank" 
+                  <a
+                    href={project.link}
+                    target="_blank"
                     rel="noopener noreferrer"
                     className="h-10 w-10 border border-white/10 rounded-full flex items-center justify-center group-hover:bg-emerald-400 group-hover:text-black group-hover:border-emerald-400 transition-all duration-300 cursor-pointer"
                   >
@@ -284,7 +374,7 @@ const ProjectsPage = () => {
                       <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M14 5l7 7m0 0l-7 7m7-7H3" />
                     </svg>
                   </a>
-                  
+
                 </div>
 
                 <p className="text-neutral-400 text-sm leading-relaxed max-w-md group-hover:text-neutral-300 transition-colors">
